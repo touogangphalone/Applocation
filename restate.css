@@ -1,0 +1,26 @@
+body{
+    background: url(img/house.jpg);
+    width: 100%;
+}
+body h1{
+    text-align: center;
+}
+button:hover{
+    transform: translateY(.5rem);
+    color : yellowgreen;
+    background-color: rgb(152, 152, 204);
+    cursor: pointer;
+}
+.create{
+    text-align: center;
+    align-items: center;
+    margin-left: 600px;
+    font-size: 30px;
+}
+h3{
+    margin-left: 50px;
+}
+.login{
+    position: relative;
+    font-size: 30px;
+}
