@@ -1,14 +1,16 @@
 body{
     background: url(img/house.jpg);
-    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
 }
 body h1{
     text-align: center;
 }
 button:hover{
     transform: translateY(.5rem);
-    color : yellowgreen;
-    background-color: rgb(152, 152, 204);
+    color : white;
+    background-color: greenyellow;
     cursor: pointer;
 }
 .create{
