@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AppLocation Admin  Dashboard</title>
+  <link rel="stylesheet" href="page.css">
+  <!-- box icon -->
+  <link href='page.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="sidebar">
+    <div class="logo_details">
+      <i class='bx bx-code-alt'></i>
+      <div class="logo_name">
+        AppLocation DashBoard
+      </div>
+    </div>
+    <ul>
+      <li>
+        <a href="#" class="active">
+          <i class='bx bx-grid-alt'></i>
+          <span class="links_name">
+            Dashboard
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-user'></i>
+          <span class="links_name">
+            Profile
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bxs-truck'></i>
+          <span class="links_name">
+            Sales
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-dollar' ></i>
+          <span class="links_name">
+            Earning
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bxs-user-plus'></i>
+          <span class="links_name">
+            Houses
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-cart-alt'></i>
+          <span class="links_name">
+            Users
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-heart'></i>
+          <span class="links_name">
+            profits
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-cog'></i>
+          <span class="links_name">
+            Setting
+          </span>
+        </a>
+      </li>
+      <li class="login">
+        <a href="#">
+          <span class="links_name login_out">
+            Login Out
+          </span>
+          <i class='bx bx-log-out' id="log_out"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <!-- End Sideber -->
+  <section class="home_section">
+    <div class="topbar">
+      <div class="toggle">
+        <i class='bx bx-menu' id="btn"></i>
+      </div>
+      <div class="search_wrapper">
+        <label>
+          <span>
+            <i class='bx bx-search'></i>
+          </span>
+          <input type="search" placeholder="Search...">
+        </label>
+      </div>
+      <div class="user_wrapper">
+        <img src="picture1.jfif" alt="">
+      </div>
+    </div>
+    <!-- End Top Bar -->
+    <div class="card-boxes">
+      <div class="box">
+        <div class="right_side">
+          <div class="numbers">500</div>
+          <div class="box_topic">Total Houses</div>
+        </div>
+        <i class='bx bx-cart-alt'></i>
+      </div>
+      <div class="box">
+        <div class="right_side">
+          <div class="numbers">75%</div>
+          <div class="box_topic">Total Sales</div>
+        </div>
+        <i class='bx bxs-cart-add'></i>
+      </div>
+      <div class="box">
+        <div class="right_side">
+          <div class="numbers">67</div>
+          <div class="box_topic">Available Houses</div>
+        </div>
+        <i class='bx bx-cart'></i>
+      </div>
+      <div class="box">
+        <div class="right_side">
+          <div class="numbers">55%</div>
+          <div class="box_topic">Total Return</div>
+        </div>
+        <i class='bx bxs-cart-download'></i>
+      </div>
+    </div>
+    <!-- End Card Boxs -->
+    <div class="details">
+      <div class="recent_project">
+        <div class="card_header">
+          <h2>Types of Houses</h2>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <td>House type</td>
+              <td>Demande</td>
+              <td>status</td>
+              <td>Members</td>
+              <td>state</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Appartments</td>
+              <td>120</td>
+              <td>
+                <span class="badge bg_worning">
+                  Meduim
+                </span>
+              </td>
+              <td>
+                <span class="img_group">
+                  <img src="img/avatar-2.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-3.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-4.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <span class="initial">+5</span>
+                </span>
+              <td>
+                <span class="badge bg_worning">
+                  For Rent
+                </span>
+              </td> 
+              </td>
+            </tr>
+            <tr>
+              <td>Container house</td>
+              <td>17</td>
+              <td>
+                <span class="badge bg_danger">
+                  Low
+                </span>
+              </td>
+              <td>
+                <span class="img_group">
+                  <img src="img/avatar-5.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-2.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-3.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <span class="initial">+15</span>
+                </span>
+              </td>
+              <td>
+                <span class="badge bg_seccuss">
+                    For Sale
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>Bungalows</td>
+              <td>120</td>
+              <td>
+                <span class="badge bg_info">
+                  medium
+                </span>
+              </td>
+              <td>
+                <span class="img_group">
+                  <img src="img/avatar-4.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-5.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-2.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <span class="initial">+100</span>
+                </span>
+              </td>
+              <td>
+                <span class="badge bg_seccuss">
+                    For Sale
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>Villas</td>
+              <td>35</td>
+              <td>
+                <span class="badge bg_danger">
+                  Low
+                </span>
+              </td>
+              <td>
+                <span class="img_group">
+                  <img src="arthur.JPG" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-4.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-5.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <span class="initial">+5</span>
+                </span>
+              </td>
+              <td>
+                <span class="badge bg_seccuss">
+                    For Sale
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>Hut</td>
+              <td>300</td>
+              <td>
+                <span class="badge bg_seccuss">
+                  High
+                </span>
+              </td>
+              <td>
+                <span class="img_group">
+                  <img src="img/avatar-2.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-3.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-4.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <span class="initial">+5</span>
+                </span>
+              </td>
+              <td>
+                <span class="badge bg_worning">
+                    For Lease
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>Wooden House</td>
+              <td>190</td>
+              <td>
+                <span class="badge bg_seccuss">
+                  Hight
+                </span>
+              </td>
+              <td>
+                <span class="img_group">
+                  <img src="img/avatar-5.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-2.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-3.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <span class="initial">+1</span>
+                </span>
+              </td>
+              <td>
+                <span class="badge bg_worning">
+                    For Lease
+                </span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="recent_customers">
+        <div class="card_header">
+          <h2>New Customers</h2>
+        </div>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <div class="info_img">
+                  <img src="arthur.JPG" alt="">
+                </div>
+              </td>
+              <td>
+                <h4>Arthur williams</h4>
+                <span>Willams@gmail.com</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="info_img">
+                  <img src="mr.joel.jpg" alt="">
+                </div>
+              </td>
+              <td>
+                <h4>Mr.Joel</h4>
+                <span>Joelnteclas@gmail.com</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="info_img">
+                  <img src="phalo.jpg" alt="">
+                </div>
+              </td>
+              <td>
+                <h4>Phalone</h4>
+                <span>Phalone@gmail.com</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="info_img">
+                  <img src="victory.jpg" alt="">
+                </div>
+              </td>
+              <td>
+                <h4>Victory</h4>
+                <span>Victory237@gmail.com</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="info_img">
+                  <img src="steve.jfif" alt="">
+                </div>
+              </td>
+              <td>
+                <h4>steve Brown</h4>
+                <span>Brown@gmail.com</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="info_img">
+                  <img src="img/avatar-3.jpg" alt="">
+                </div>
+              </td>
+              <td>
+                <h4>Sharon Lessma</h4>
+                <span>Blessing@gmail.com</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    let sidebar = document.querySelector(".sidebar");
+    let closeBtn = document.querySelector("#btn");
+
+    closeBtn.addEventListener("click", () => {
+      sidebar.classList.toggle("open");
+      // call function
+      changeBtn();
+    });
+
+    function changeBtn() {
+      if(sidebar.classList.contains("open")) {
+        closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");
+      } else {
+        closeBtn.classList.replace("bx-menu-alt-right", "bx-menu");
+      }
+    }
+  </script>
+</body>
+</html>
