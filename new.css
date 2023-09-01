@@ -162,6 +162,10 @@ header{
 /* Properties */
 .heading{
     text-align: center;
+<<<<<<< Updated upstream
+=======
+    margin-bottom: 2rem;
+>>>>>>> Stashed changes
 }
 .heading span{
     font-weight: 500;
@@ -261,6 +265,10 @@ header{
     font-weight: 500;
     text-transform: uppercase;
 }
+<<<<<<< Updated upstream
+=======
+/* footer */
+>>>>>>> Stashed changes
 .footer{
     background: var(--main-color);
     color: var(--bg-color);
@@ -305,4 +313,168 @@ header{
     text-align: center;
     color: var(--bg-color);
     background: var(--main-color);
+<<<<<<< Updated upstream
+=======
+}
+/* login */
+.login{
+    display: flex;
+    grid-template-columns: 0.4fr 1fr;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: 2rem;
+}
+.login-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.login-container h2{
+    font-size: 1.4rem;
+}
+.login-container p{
+    font-size: 0.9rem;
+}
+.login-container form{
+    display: flex;
+    flex-direction: column;
+}
+.login-container form span{
+    font-size: 0.9rem;
+    color: #8a8a8a;
+    margin-bottom: 4px;
+}
+.login-container form input{
+    border: 1px solid #8a8a8a;
+    outline: none;
+    margin-bottom: 1rem;
+    background: var(--bg-color);
+}
+.login-container form .button{
+    outline: none;
+    border: none;
+    background: var(--main-color);
+    color: var(--bg-color);
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+.login-container form .button:hover{
+    background: #3492fd;
+}
+.login-container form a{
+    font-size: 0.9rem;
+    text-align: right;
+}
+.login-container .btn{
+    border-radius: 0;
+    text-align: center;
+}
+/* making responsive */
+@media (max-width: 1080px) {
+    .container{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+@media (max-width: 880px){
+    section{
+        padding: 4rem 0 3rem;
+    }
+    .properties-container{
+        grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+        gap: 1rem;
+        padding: 0 10px;
+    }
+    .footer-container{
+        grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    }
+    .login{
+        grid-template-columns: 0.6fr 1fr;
+    }
+}
+@media (max-width: 768px) {
+    .nav{
+        padding: 10px 0;
+    }
+    #menu-icon{
+        display: initial;
+    }
+    .navbar{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        background: var(--second-color);
+        text-align: center;
+        clip-path: circle(0% at 100% 1%);
+        transition: 0.6s;
+    }
+    .navbar a{
+        display: block;
+        margin: 1rem;
+        padding: 20px;
+        color: var(--bg-color);
+    }
+    .navbar a:hover{
+        background: var(--main-color);
+        color: var(--bg-color);
+        transition: 0.2s;
+    }
+    #menu:checked ~ .navbar {
+        clip-path: circle(144% at 100% 1%);
+    }
+    .about-text span{
+        font-size: 0.9rem;
+    }
+    .about-text h2, 
+    .heading h2, 
+    .newsletter h2{
+        font-size: 1.4rem;
+    }
+}
+@media (max-width:638px){
+    .about-text{
+        text-align: center;
+    }
+    .about-img{
+        order: 2;
+    }
+    .login{
+        grid-template-columns: 0.8fr 1fr;
+        margin-top: 3rem;
+    }
+}
+@media (max-width:572px){
+    .login-image {
+        display: none;
+    }
+    .login{
+        justify-content: center;
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width:442px) {
+    .home-text{
+        padding-left: 14px;
+    }
+    .home-text h1{
+        font-size: 1.7rem;
+    }
+    .about-text h2, 
+    .heading h2, 
+    .newsletter h2{
+        font-size: 1.2rem;
+    }
+    .properties-container{
+        padding: 0;
+    }
+    .newsletter #email-box {
+        width: 100px;
+    }
+    .footer{
+        border-radius: 3rem 0 0 0;
+    }
+>>>>>>> Stashed changes
 }
