@@ -1,5 +1,4 @@
 <?php
-
 $servername = 'localhost:3310';
 $username = 'root';
 $password = '';
@@ -14,4 +13,9 @@ if(!$con)
 //testing if connected.
 else{
     echo 'successful';
+    
+} 
+
 }
+*/
+?>
